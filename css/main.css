@@ -1,0 +1,360 @@
+.main-info{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+padding-top: 130px;
+
+}
+
+.lang-selection{
+    display: flex;
+}
+
+.lang-item-name{
+
+    font-family: 'Public Sans';
+    font-size:  16px;
+    line-height: 20px;
+    font-weight: 900;
+    color: #828282;
+
+}
+
+.main-info-bg{
+
+    height: 387px;
+    background: url(./intro_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 105px;
+
+}
+
+.about-me-block{
+
+    background-color: #F6F6F6;
+    height: max-content
+
+}
+
+.about-me{
+
+    padding-top: 120px;
+    margin-bottom: 18px;
+
+}
+
+.M_T-block{
+
+    margin-bottom: 40px;
+
+}
+
+.M_T-block:last-child{
+
+margin-bottom: 0px;
+padding-bottom: 110px;
+
+}
+
+.skills{
+
+    background-color: #FFFFFF;
+    height: max-content;
+
+}
+
+.skills-main-teg{
+
+    padding-top: 120px;
+    margin-bottom: 70px;
+
+}
+
+.programms-review{
+
+    margin-bottom: 83px;
+
+}
+
+.programms-block{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 110px;
+
+}
+
+.programm{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.photoshop-logo{
+
+    background: url(./ps-logo.jpg);
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 89px;
+
+}
+
+.illustrator-logo{
+
+    background: url(./ai-logo.jpg);
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 89px;
+
+}
+
+.after-effects-logo{
+
+    background: url(./ae-logo.jpg);
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 89px;
+
+}
+
+.figma-logo{
+
+    background: url(./figma-logo.jpg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 89px;
+
+}
+
+.logo:hover{
+
+    transition: 1s;
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 255, .2);
+
+}
+
+.programm-name{
+
+    font-family: 'Public Sans';
+    font-size:  14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 41px;
+    margin-top: 24px;
+
+}
+
+.programm-name-figma{
+
+    font-family: 'Public Sans';
+    font-size:  14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 57px; 
+    margin-top: 24px;
+
+}
+
+.programm-skills{
+    width: 165px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+
+}
+
+.star{
+
+    width: 25px;
+    height: 25px;
+    background: url(./star-grey.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.star:hover, .star:active, .star:checked{
+
+    background: url(./star-black.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+.portfolio{
+    background-color: #F6F6F6;
+    padding-top: 112px;
+
+}
+
+.fashion-store-bg{
+
+    margin-top: 47px;
+    height: 510px;
+    background: url(./fashio-store-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.stores-teg{
+
+    text-decoration: underline;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+
+.reebok-bg{
+
+    height: 510px;
+    background: url(./reebok-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.braun-bg{
+
+    height: 510px;
+    background: url(./braun-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.bg:hover{
+
+    scale: 1.4;
+    transition: 1s;
+    box-shadow: 8px 10px 5px 2px black;
+
+}
+
+.braun-stores-teg{
+
+    text-decoration: underline;
+    margin-top: 45px;
+    padding-bottom: 100px;
+
+}
+
+.contacts-teg{
+
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.contact-text{
+
+    margin-bottom: 30px;
+
+}
+
+.button-block{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.button{
+
+    width: 180px;
+    height: 42px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    font-family: 'Public Sans';
+    font-size:  18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.button:hover{
+
+    color: black;
+    background: white;
+    border: 3px solid black;
+    transition: 1s;
+
+}
+
+.contacts-logo{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.linkdeln{
+
+    width: 42px;
+    height: 42px;
+    background: url(./linkdeln-logo.jpg);
+    background-repeat: no-repeat;
+    margin-right: 60px;
+
+}
+
+.instagram{
+
+    width: 42px;
+    height: 42px;
+    background: url(./instagram-logo.jpg);
+    background-repeat: no-repeat;
+    margin-right: 60px;
+
+}
+
+.behance{
+
+    width: 42px;
+    height: 42px;
+    background: url(./behance-logo.jpg);
+    background-repeat: no-repeat;
+    margin-right: 60px;
+
+}
+
+.dribble{
+
+    width: 42px;
+    height: 42px;
+    background: url(./dribble-logo.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.like-me-on{
+
+    font-family: 'Public Sans';
+    font-size:  14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 125px;
+
+}
