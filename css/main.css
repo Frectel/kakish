@@ -10,7 +10,10 @@ padding-top: 130px;
 }
 
 .lang-selection{
+
     display: flex;
+    transform: rotate(-90deg);
+
 }
 
 .lang-item-name{
@@ -20,6 +23,12 @@ padding-top: 130px;
     line-height: 20px;
     font-weight: 900;
     color: #828282;
+    margin-right: 5px;
+
+}
+.lang-item-name:last-child{
+
+    margin-right: 0;
 
 }
 
